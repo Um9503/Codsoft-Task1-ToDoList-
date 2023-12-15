@@ -1,0 +1,118 @@
+
+body {
+    font-family: serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0a192f; 
+    color: #c5c6c7;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.notepad {
+    background-color: #172a45; 
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    width: 300px;
+    text-align: left;
+    font-size: larger;
+}
+
+.notepad-image {
+    max-width: 50%;
+    height: auto;
+    margin-bottom: 10px;
+    padding-left: 25%;
+}
+
+h1 {
+    text-align: center;
+    color: #6F8FAF;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #172a45; 
+    color: #c5c6c7; 
+    border: 1px solid #6F8FAF; 
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid #6F8FAF;
+}
+
+button {
+    padding: 10px;
+    background-color: #6F8FAF; 
+    color: #0a192f;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #6082B6; 
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #6F8FAF;
+    padding: 10px 0;
+}
+
+li span {
+    flex: 1;
+}
+
+li button {
+    background-color: #6F8FAF; 
+    color: #000205;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}
+
+li button:hover {
+    background-color: #6082B6; 
+}
+
+li input[type="checkbox"] {
+    margin-right: 20px; /* Adjust the spacing between checkbox and text */
+}
+
+#clear-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #6F8FAF; 
+    color: #000407;
+    border: none;
+    cursor: pointer;
+}
+
+#clear-button:hover {
+    background-color: #6082B6; 
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
